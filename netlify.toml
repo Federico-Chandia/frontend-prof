@@ -1,5 +1,5 @@
 [build]
-  command = "SECRETS_SCAN_ENABLED=false NODE_ENV=production npm run build:safe"
+  command = "npm install && npm run build"
   publish = "dist"
   environment = { NODE_ENV = "production" }
 
